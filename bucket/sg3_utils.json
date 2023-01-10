@@ -4,7 +4,7 @@
     "homepage": "http://sg.danny.cz/sg/sg3_utils.html",
     "url": [
         "http://sg.danny.cz/sg/p/sg3_utils-1.47cyg64.zip",
-        "https://github.com/krkx/scoop/blob/main/cygwin1.dll"
+        "https://github.com/krkx/scoop/raw/main/cygwin1.dll"
         ],
     "checkver": {
         "url": "https://github.com/doug-gilbert/sg3_utils/tags",

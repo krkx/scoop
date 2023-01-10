@@ -1,13 +1,15 @@
 {
-    "version": "1.46mgw64",
+    "version": "1.47cyg64",
     "description": "sg_utils for SCSI talk to SAS & SATA disk drives",
     "homepage": "http://sg.danny.cz/sg/sg3_utils.html",
-    "url": "http://sg.danny.cz/sg/p/sg3_utils-1.46mgw64.zip",
-    "hash": "SHA512:F92939533EB846B5F7675DC61351082D77346D95959DD2921B2014E7656E985A22EF717545FF5E496D0DB4E26227140FAA8EE1532CF13EF60EC04B71E303A202",
+    "url": [
+        "http://sg.danny.cz/sg/p/sg3_utils-1.47cyg64.zip",
+        "https://github.com/krkx/scoop/blob/main/cygwin1.dll"
+        ],
     "checkver": {
         "url": "https://github.com/doug-gilbert/sg3_utils/tags",
-        "regex": "release-(\\d+\\.46)",
-        "replace": "${1}mgw64"
+        "regex": "release-(\\d+\\.\\d+)",
+        "replace": "${1}cyg64"
     },
     "autoupdate": {
         "url": "http://sg.danny.cz/sg/p/sg3_utils-$version.zip"

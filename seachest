@@ -1,0 +1,15 @@
+{
+    "version": "v23.12",
+    "description": "openSeaChest SMART and ATA SAS command utils from Seagate SeaChest",
+    "homepage": "https://github.com/Seagate/openSeaChest",
+    "url": [
+        "https://github.com/Seagate/openSeaChest/releases/download/v23.12/openSeaChest-v23.12-win-x64.zip"
+        ],
+    "checkver": {
+        "url": "https://github.com/Seagate/openSeaChest",
+        "regex": "tag/([\\w.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Seagate/openSeaChest/releases/download/$version/openSeaChest-$version-win-x64.zip"
+    }
+}

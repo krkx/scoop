@@ -5,6 +5,24 @@
     "url": [
         "https://github.com/Seagate/openSeaChest/releases/download/v23.12/openSeaChest-v23.12-win-x64.zip"
         ],
+    "extract_dir": "openSeaChest-$version-win-x64"
+    "bin": [
+        "openSeaChest_Basics.exe",
+        "openSeaChest_Configure.exe",
+        "openSeaChest_Erase.exe",
+        "openSeaChest_Firmware.exe",
+        "openSeaChest_Format.exe",
+        "openSeaChest_GenericTests.exe",
+        "openSeaChest_Info.exe",
+        "openSeaChest_Logs.exe",
+        "openSeaChest_NVMe.exe",
+        "openSeaChest_PassthroughTest.exe",
+        "openSeaChest_PowerControl.exe",
+        "openSeaChest_Reservations.exe",
+        "openSeaChest_Security.exe",
+        "openSeaChest_SMART.exe",
+        "openSeaChest_ZBD.exe"
+    ],
     "checkver": {
         "url": "https://github.com/Seagate/openSeaChest",
         "regex": "tag/([\\w.-]+)"

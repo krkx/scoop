@@ -5,7 +5,6 @@
     "url": [
         "https://github.com/Seagate/openSeaChest/releases/download/v23.12/openSeaChest-v23.12-win-x64.zip"
         ],
-    "extract_dir": "openSeaChest-$version-win-x64",
     "pre_install": [
         "mv $original_dir\\openSeaChest-$version-win-x64\\* $original_dir -Force",
         "rm $original_dir\\openSeaChest-$version-win-x64 -Force"

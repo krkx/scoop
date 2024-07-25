@@ -26,10 +26,7 @@
         "openSeaChest_SMART.exe",
         "openSeaChest_ZBD.exe"
     ],
-    "checkver": {
-        "url": "https://github.com/Seagate/openSeaChest",
-        "regex": "tag/([\\w.-]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Seagate/openSeaChest/releases/download/$version/openSeaChest-$version-win-x64.zip"
     }

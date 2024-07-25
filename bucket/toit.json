@@ -1,6 +1,6 @@
 {
     "version": "v2.0.0-alpha.159",
-    "description": "Sane language, VM and containers for ESP32 microcontrollers",
+    "description": "ESP32 with sane language, VM and containers. Smalltalk for microcontrollers by designers of Dart 1.",
     "homepage": "https://github.com/toitlang/toit",
     "license": "LGPL-2.1-only",
     "suggest": {

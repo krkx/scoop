@@ -1,5 +1,5 @@
 {
-    "version": "v23.12",
+    "version": "23.12",
     "description": "openSeaChest SMART and ATA SAS command utils from Seagate SeaChest",
     "homepage": "https://github.com/Seagate/openSeaChest",
     "url": [
@@ -28,6 +28,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Seagate/openSeaChest/releases/download/$version/openSeaChest-$version-win-x64.zip"
+        "url": "https://github.com/Seagate/openSeaChest/releases/download/v$version/openSeaChest-$version-win-x64.zip"
     }
 }

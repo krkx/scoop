@@ -1,0 +1,22 @@
+{
+    "version": "6.3.0.57",
+    "description": "Command palette, file search & explorer navigation",
+    "homepage": "https://www.listary.com",
+    "license": "Shareware",
+    "url": "https://www.listary.com/download/beta/Listary.exe?version=6.3.0.57#/dl.exe",
+    "hash": "158110e049b8981e7cd8664590f24cd70db55b1ca993423825ad030d24889c8e",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Listary.exe",
+            "Listary"
+        ]
+    ],
+    "checkver": {
+        "url": "https://help.listary.com/changelog-beta",
+        "regex": "og:description..content=.([\\d.]+) \\(beta\\)"
+    },
+    "autoupdate": {
+        "url": "https://www.listary.com/download/beta/Listary.exe?version=$version#/dl.exe"
+    }
+}

@@ -1,10 +1,10 @@
 {
-    "version": "6.3.1.79",
+    "version": "6.3.1.81",
     "description": "Command palette, file search & explorer navigation",
     "homepage": "https://www.listary.com",
     "license": "Shareware",
-    "url": "https://www.listary.com/download/beta/Listary.exe?version=6.3.1.79#/dl.exe",
-    "hash": "99214f51344de194aef457b8148e67d9ece3c9bb0872e551a7641f6d2984dab5",
+    "url": "https://www.listary.com/download/beta/Listary.exe?version=6.3.1.81#/dl.exe",
+    "hash": "4024CEB00FD5FAFB899F18DBEECE4408E191B31D268FD3C4ADB016CA7D522731",
     "innosetup": true,
     "shortcuts": [
         [

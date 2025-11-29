@@ -1,10 +1,8 @@
 {
-    "version": "23.12",
+    "version": "25.05.3",
     "description": "openSeaChest SMART and ATA SAS command utils from Seagate SeaChest",
     "homepage": "https://github.com/Seagate/openSeaChest",
-    "url": [
-        "https://github.com/Seagate/openSeaChest/releases/download/v23.12/openSeaChest-v23.12-win-x64.zip"
-        ],
+    "url": "https://github.com/Seagate/openSeaChest/releases/download/v25.05.3/openSeaChest-25.05.3-win-x64.zip",
     "pre_install": [
         "mv $original_dir\\openSeaChest-$version-win-x64\\* $original_dir -Force",
         "rm $original_dir\\openSeaChest-$version-win-x64 -Force"
